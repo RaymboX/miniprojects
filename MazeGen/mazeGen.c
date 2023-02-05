@@ -40,6 +40,9 @@ int main()
 
 	mazeDraw(walls);
 
+	free(spaces);
+	free(walls);
+
 }
 
 void	addSpace(char* spaces, char* walls)
